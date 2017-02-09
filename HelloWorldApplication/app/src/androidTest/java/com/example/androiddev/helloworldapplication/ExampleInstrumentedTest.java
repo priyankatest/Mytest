@@ -19,6 +19,7 @@ public class ExampleInstrumentedTest {
     @Test
     public void useAppContext() throws Exception {
         // Context of the app under test.
+        //test
         Context appContext = InstrumentationRegistry.getTargetContext();
 
         assertEquals("com.example.androiddev.helloworldapplication", appContext.getPackageName());
